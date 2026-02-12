@@ -5,6 +5,7 @@ import react from '@vitejs/plugin-react';
 export default defineConfig(({ mode }) => {
     const env = loadEnv(mode, '.', '');
     return {
+      base: '/KodaCars-V2-Website/',
       server: {
         port: 3000,
         host: '0.0.0.0',
